@@ -3,15 +3,15 @@ const Workout = require("../models/workout.js");
 
 //Render last workout
 router.get("/api/workouts", (req, res) => {
-    console.log("route hit")
+    
     Workout.aggregate([{$addFields: {totalDuration: {$sum: '$exercises.duration' }}}])
   
         .then(dbWorkout => {
-            console.log("workout", dbWorkout);
+            
             res.json(dbWorkout);
         })
         .catch(err => {
-            console.log('error', err)
+            
             res.status(400).json(err);
         });
 });

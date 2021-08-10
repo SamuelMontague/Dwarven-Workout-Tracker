@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+//Recording the workouts and exercises
 const WorkoutSchema = new Schema(
     {
         day: {type: Date, default: Date.now},

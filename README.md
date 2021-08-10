@@ -1,11 +1,12 @@
-# Workout Tracker 
+# Dwarven Workout Tracker 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SamuelMontague/workoutTracker)
   
 #Description
 
 This is a website that will help track a user's exercises. The site allows a user to track a new exercise for the day or update a previously created exercise. The site tracks total exercises, total time, total weight lifted for each day. 
 
-![screenshot](./public/assets/ScreenshotFT.png) ![screenshot](./public/assets/screenshotFT2.png)
+![screenshot](./public/assets/screenshotFT2.PNG) 
+![screenshot](./public/assets/screenshotFT2.PNG)
     
 # Table of Contents
 
