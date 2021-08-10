@@ -5,7 +5,7 @@
 
 This is a website that will help track a user's exercises. The site allows a user to track a new exercise for the day or update a previously created exercise. The site tracks total exercises, total time, total weight lifted for each day. 
 
-![screenshot](./public/assets/screenshotFT2.PNG) 
+![screenshot](./public/assets/screenshotFT.PNG) 
 ![screenshot](./public/assets/screenshotFT2.PNG)
     
 # Table of Contents
